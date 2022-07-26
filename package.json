@@ -1,0 +1,19 @@
+{
+  "name": "query-domain-icp-nodejs",
+  "description": "Node.js 获取域名ICP备案信息 自动破解滑动验证码",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiangmouren/query-domain-icp-nodejs"
+  },
+  "main": "miit.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "opencv4nodejs": "^5.6.0"
+  },
+  "opencv4nodejs": {
+    "disableAutoBuild": 1,
+    "opencvIncludeDir": "E:\\opencv\\build\\include",
+    "opencvLibDir": "E:\\opencv\\build\\x64\\vc15\\lib",
+    "opencvBinDir": "E:\\opencv\\build\\x64\\vc15\\bin"
+  }
+}
